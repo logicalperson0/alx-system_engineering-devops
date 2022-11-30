@@ -11,3 +11,5 @@ The file 4-listmorefiles for the ls -la in the directory
 The file 5-listfilesdigitonly for the ls -an in directory
 
 The file 6-firstdirectory for adding directory in tmp directory
+
+The file 7-movethatfile for moving files in tmp directory
