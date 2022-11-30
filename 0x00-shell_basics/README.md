@@ -21,3 +21,5 @@ The 9-firstdirdeletion to del a dir
 The 10-back to prev dir
 
 The 11-lists to list 3 diff dir
+
+The 12-file_type file type of a tmp file
