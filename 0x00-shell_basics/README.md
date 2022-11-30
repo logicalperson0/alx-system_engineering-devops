@@ -25,3 +25,5 @@ The 11-lists to list 3 diff dir
 The 12-file_type file type of a tmp file
 
 The  13-symbolic_link to create a sym link to /bin/ls
+
+The 14-copy_html to cp to dir all .html files
