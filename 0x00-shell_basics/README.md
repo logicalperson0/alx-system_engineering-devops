@@ -17,3 +17,5 @@ The file 7-movethatfile for moving files in tmp directory
 The 8-firstdelete to delete a file in another directory
 
 The 9-firstdirdeletion to del a dir 
+
+The 10-back to prev dir
