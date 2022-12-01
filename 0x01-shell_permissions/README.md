@@ -7,3 +7,5 @@
 4 The file 3-new_owner to change ownership of a file to betty
 
 5 The file 4-empty to create a empty file
+
+6 The file 5-execute to add permission to the file to the user
