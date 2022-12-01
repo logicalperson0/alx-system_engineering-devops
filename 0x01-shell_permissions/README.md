@@ -19,3 +19,5 @@
 10 The file 9-John_doe set permits to 753
 
 11 The file 10-mirror_permissions permits 2 files to 664
+
+12 The file 11-directories_permissions recurseivly the dir of current dir
