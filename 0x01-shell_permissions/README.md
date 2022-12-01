@@ -11,3 +11,5 @@
 6 The file 5-execute to add permission to the file to the user
 
 7 The file 6-multiple_permissions sets muliple premits to the owner,group, others
+
+8 The file 7-everybody sets permits to 755
