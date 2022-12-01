@@ -17,3 +17,5 @@
 9 The file 8-James_Bond set permits to 007
 
 10 The file 9-John_doe set permits to 753
+
+11 The file 10-mirror_permissions permits 2 files to 664
