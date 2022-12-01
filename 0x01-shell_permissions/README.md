@@ -13,3 +13,5 @@
 7 The file 6-multiple_permissions sets muliple premits to the owner,group, others
 
 8 The file 7-everybody sets permits to 755
+
+9 The file 8-James_Bond set permits to 007
