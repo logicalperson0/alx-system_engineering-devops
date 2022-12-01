@@ -21,3 +21,5 @@
 11 The file 10-mirror_permissions permits 2 files to 664
 
 12 The file 11-directories_permissions recurseivly the dir of current dir
+
+13 The file 12-directory_permissions mkdir and sets permission to 751
