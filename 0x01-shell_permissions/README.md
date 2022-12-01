@@ -9,3 +9,5 @@
 5 The file 4-empty to create a empty file
 
 6 The file 5-execute to add permission to the file to the user
+
+7 The file 6-multiple_permissions sets muliple premits to the owner,group, others
