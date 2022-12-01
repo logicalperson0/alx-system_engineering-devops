@@ -15,3 +15,5 @@
 8 The file 7-everybody sets permits to 755
 
 9 The file 8-James_Bond set permits to 007
+
+10 The file 9-John_doe set permits to 753
