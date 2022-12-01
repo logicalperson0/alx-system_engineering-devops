@@ -1,0 +1,1 @@
+-The file 0-iam_betty script to change ownership permissions
