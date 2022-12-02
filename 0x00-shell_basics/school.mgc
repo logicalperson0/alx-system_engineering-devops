@@ -1,2 +1,2 @@
 #!/bin/bash
-file -C --mime-type -m ./School
+file -C --mime-type -m 
