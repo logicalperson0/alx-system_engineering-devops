@@ -17,3 +17,5 @@
 8 The filr 8-cwd_state wrties out ls -la into the file ls_cwd_content
 
 9 The file 9-duplicate_last_line writes duplicates the last line of the file iacta
+
+10 The file 10-no_more_js del all js from dir and subdir
