@@ -33,3 +33,5 @@
 16 The file 16 prints out root and 3 trailing lines after in etc/passwd
 
 17 The file 17 prints out all rtc/passwd except bin
+
+18 The file 18 prints out all /etc/ssh/sshd_config staring with a letter
