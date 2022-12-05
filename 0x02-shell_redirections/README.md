@@ -35,3 +35,5 @@
 17 The file 17 prints out all rtc/passwd except bin
 
 18 The file 18 prints out all /etc/ssh/sshd_config staring with a letter
+
+19 The file 19 Replace all characters A and c from input to Z and e respectively
