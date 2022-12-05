@@ -9,3 +9,5 @@
 4 The file 4-lastlines prints the tail of /etc/passwd
 
 5 The file 5-firstlines prints the head of /etc/passwd
+
+6 The file 6-third_line prints the 3rd line in iacta 
