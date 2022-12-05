@@ -7,3 +7,5 @@
 3 The file 3-twofiles prints both /etc/passwd and /etc/hosts
 
 4 The file 4-lastlines prints the tail of /etc/passwd
+
+5 The file 5-firstlines prints the head of /etc/passwd
