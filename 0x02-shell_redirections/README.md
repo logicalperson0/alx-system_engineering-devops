@@ -5,3 +5,5 @@
 2 The file 2-hellofile prints the /etc/passwd
 
 3 The file 3-twofiles prints both /etc/passwd and /etc/hosts
+
+4 The file 4-lastlines prints the tail of /etc/passwd
