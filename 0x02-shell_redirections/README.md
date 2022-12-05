@@ -3,3 +3,5 @@
 1 THe file script 1-confused_smiley prints a "(Ôo)'
 
 2 The file 2-hellofile prints the /etc/passwd
+
+3 The file 3-twofiles prints both /etc/passwd and /etc/hosts
