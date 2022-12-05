@@ -27,3 +27,5 @@
 13 The file 13-unique prints out unique lines
 
 14 The file 14-findthatword prints out the root in etc/passwd
+
+15 The file 15 is to print the no of bin in etc/passwd
