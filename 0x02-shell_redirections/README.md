@@ -25,3 +25,5 @@
 12 The file 12-newest_files displays the 10 newest files in the current directory
 
 13 The file 13-unique prints out unique lines
+
+14 The file 14-findthatword prints out the root in etc/passwd
