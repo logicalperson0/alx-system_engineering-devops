@@ -19,3 +19,7 @@
 9 The file 9-duplicate_last_line writes duplicates the last line of the file iacta
 
 10 The file 10-no_more_js del all js from dir and subdir
+
+11 The file 11-directories counts the number of directories and sub-directories in the current directory
+
+12 The file 12-newest_files displays the 10 newest files in the current directory
