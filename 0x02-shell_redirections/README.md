@@ -37,3 +37,5 @@
 18 The file 18 prints out all /etc/ssh/sshd_config staring with a letter
 
 19 The file 19 Replace all characters A and c from input to Z and e respectively
+
+20 The file 20 removes all letters c and C from input.
