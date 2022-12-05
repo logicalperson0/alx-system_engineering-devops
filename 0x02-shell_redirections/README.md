@@ -10,4 +10,6 @@
 
 5 The file 5-firstlines prints the head of /etc/passwd
 
-6 The file 6-third_line prints the 3rd line in iacta 
+6 The file 6-third_line prints the 3rd line in iacta
+
+7 The file 7-file writes the file \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) and prints Best School
