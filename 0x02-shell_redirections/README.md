@@ -29,3 +29,5 @@
 14 The file 14-findthatword prints out the root in etc/passwd
 
 15 The file 15 is to print the no of bin in etc/passwd
+
+16 The file 16 prints out root and 3 trailing lines after in etc/passwd
