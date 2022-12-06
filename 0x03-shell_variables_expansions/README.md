@@ -3,3 +3,5 @@
 2 The file Add /action to the PATH
 
 3 The file Create a script that counts the number of directories in the PATH
+
+4 The file script that lists environment variables.
