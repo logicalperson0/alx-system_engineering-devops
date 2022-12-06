@@ -9,3 +9,7 @@
 4 The file script that lists environment variables.
 
 5 The file script that lists all local variables and environment variables, and functions
+
+6 The file script that creates a new local variable.
+
+7 The file a script that creates a new global variable.
