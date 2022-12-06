@@ -38,4 +38,9 @@
 
 19 The file 19 Replace all characters A and c from input to Z and e respectively
 
-20 The file 20 removes all letters c and C from input.
+20 The file 20 removes all letters c and C from input
+
+21 The file 21 rev the word or string
+
+22 The file 22 cuts and sorts the etc/passwd to the user and home dir
+
