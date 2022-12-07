@@ -1,0 +1,2 @@
+#!/bin/bash
+tail n +2 | cut -d '	' | rev | cut -d ':' | rev | head n 3
