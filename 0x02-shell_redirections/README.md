@@ -46,4 +46,5 @@
 
 23 The file 100-empty_casks finds all empty files and directories in the current directory and all sub-directories.
 
+24 The file 101-gifs a script that lists all the files with a .gif extension in the current directory and all its sub-directories, with hidden,without their extensions
 
