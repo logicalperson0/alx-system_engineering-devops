@@ -48,3 +48,5 @@
 
 24 The file 101-gifs a script that lists all the files with a .gif extension in the current directory and all its sub-directories, with hidden,without their extensions
 
+25 The file 102-acrostic script that decodes acrostics that use the first letter of each line without grep
+
