@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Displays the content of the file /etc/passwd with an specific message
+while IFS= read -r word
+do
+	USERNAME=$(echo "$word" | cut -d ':' -f 1)
+	GROUP_ID=$(echo "$word" | cut -d ':' -f 4)
+	HOME_DIRECTORY=$(echo "$word" | cut -d ':' -f 6)
+	CMD=$(echo "$word" | cut -d ':' -f 7)
+	USERID=$(echo "$word" | cut -d ':' -f 3)
+	PASSWORD=$(echo "$word" | cut -d ':' -f 2)
+	USERIDINFO=$(echo "$word" | cut -d ':' -f 5)
+
+	echo -n "The user $USERNAME is part of the $GROUP_ID gang, lives in "
+	echo -n "$HOME_DIRECTORY and rides $CMD. $USERID's place is protected "
+       	echo "by the passcode $PASSWORD, more info about the user here: $USERIDINFO"
+done < '/etc/passwd'
