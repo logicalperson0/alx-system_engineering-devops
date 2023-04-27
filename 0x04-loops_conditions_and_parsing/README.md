@@ -41,4 +41,6 @@ bad luck from Japan and -> bad luck from Italy:-> for the 4th, 9th and 17th iter
 
 10-fizzbuzz: Displays the fizzbuzz sequence
 
+100-read_and_cut: Displays the content of the file /etc/passwd
+
 
