@@ -30,4 +30,7 @@ Best School and then Hi on a new line
    -> displays good luck for the 8th loop iteration
    -> displays Best School for the other iterations
 
+6-superstitious_numbers: Displays numbers from 1 to 20 and displays:-> bad luck from China, 
+bad luck from Japan and bad luck from Italy for the 4th, 9th and 17th iteration, respectively
+
 
