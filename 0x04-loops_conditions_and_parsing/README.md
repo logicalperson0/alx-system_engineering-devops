@@ -35,4 +35,6 @@ bad luck from Japan and bad luck from Italy for the 4th, 9th and 17th iteration,
 
 7-clock: Displays the time for 12 hours and 59 minutes
 
+8-for_ls: Displays the content of the current directory in a list format
+
 
