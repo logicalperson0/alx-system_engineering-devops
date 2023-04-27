@@ -30,13 +30,15 @@ Best School and then Hi on a new line
    -> displays good luck for the 8th loop iteration
    -> displays Best School for the other iterations
 
-6-superstitious_numbers: Displays numbers from 1 to 20 and displays:-> bad luck from China, 
-bad luck from Japan and bad luck from Italy for the 4th, 9th and 17th iteration, respectively
+6-superstitious_numbers: Displays numbers from 1 to 20 and displays:-> bad luck from China, -> 
+bad luck from Japan and -> bad luck from Italy:-> for the 4th, 9th and 17th iteration, respectively
 
 7-clock: Displays the time for 12 hours and 59 minutes
 
 8-for_ls: Displays the content of the current directory in a list format
 
 9-to_file_or_not_to_file: script that gives you information about the school file
+
+10-fizzbuzz: Displays the fizzbuzz sequence
 
 
