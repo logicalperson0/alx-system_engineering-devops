@@ -33,4 +33,6 @@ Best School and then Hi on a new line
 6-superstitious_numbers: Displays numbers from 1 to 20 and displays:-> bad luck from China, 
 bad luck from Japan and bad luck from Italy for the 4th, 9th and 17th iteration, respectively
 
+7-clock: Displays the time for 12 hours and 59 minutes
+
 
