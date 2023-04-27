@@ -37,4 +37,6 @@ bad luck from Japan and bad luck from Italy for the 4th, 9th and 17th iteration,
 
 8-for_ls: Displays the content of the current directory in a list format
 
+9-to_file_or_not_to_file: script that gives you information about the school file
+
 
