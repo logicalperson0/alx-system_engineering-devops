@@ -21,4 +21,10 @@ Files:
 3-show_your_bash_pid_made_easy: Displays the PID, along with the process name, of processes whose name
 contain the word Bash
 
+4-to_infinity_and_beyond: Displays To infinity and beyond indefinitely
+
+5-kill_me_now: Kills 4-to_infinity_and_beyond process
+
+6-kill_me_now_made_easy: Kills 4-to_infinity_and_beyond process
+
 
