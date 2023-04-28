@@ -27,4 +27,9 @@ contain the word Bash
 
 6-kill_me_now_made_easy: Kills 4-to_infinity_and_beyond process
 
+7-highlander: Displays To infinity and beyond indefinitely and displays I am invincible!!!
+When receiving a SIGTERM signal
+
+8-beheaded_process: Kills the process 7-highlander
+
 
