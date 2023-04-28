@@ -32,4 +32,6 @@ When receiving a SIGTERM signal
 
 8-beheaded_process: Kills the process 7-highlander
 
+100-process_and_pid_file: Prints some messages according to sended signals
+
 
