@@ -26,4 +26,6 @@ Files:->
 
 6-phone_number.rb: A regular expression that match with 10 digit phone number
 
+7-OMG_WHY_ARE_YOU_SHOUTING.rb: A regular expression that only matches capital letters
+
 
