@@ -20,4 +20,10 @@ Files:->
 
 3-repetition_token_2.rb: A regular expression that matches hbtn, where the letter t can be replied
 
+4-repetition_token_3.rb: A regular expression that matches hbtn with or without t
+
+5-beginning_and_end.rb: A regular expression that matches with a word that starts with h and ends with n
+
+6-phone_number.rb: A regular expression that match with 10 digit phone number
+
 
