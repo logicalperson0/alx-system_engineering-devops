@@ -1,11 +1,11 @@
 #Changes SSH config file
-file_line { 'passwd off and copy pub key':
+file_line { 'passwd off in ssh':
     ensure => present,
     path   => '/etc/ssh/ssh_config',
-    line   => 'PasswordAuthentication no',
+    line   => ' PasswordAuthentication no',
     }
-file_line {'ssh copy id':
+file_line {'modify Identity file':
     ensure => present.
     path   => '/etc/ssh/ssh_config',
-    line   => 'ssh-copy-id -f ~/.ssh/school ubuntu@100.26.250.214',
+    line   => ' IdentityFile ~/.ssh/school',
     }
