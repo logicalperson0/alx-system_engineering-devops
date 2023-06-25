@@ -52,5 +52,6 @@ Host *
     HashKnownHosts yes
     GSSAPIAuthentication yes
 
-IdentityFile ~/.ssh/school
+ssh-copy-id -f ~/.ssh/school ubuntu@100.26.250.214
+#IdentityFile ~/.ssh/school
 PasswordAuthentication no
