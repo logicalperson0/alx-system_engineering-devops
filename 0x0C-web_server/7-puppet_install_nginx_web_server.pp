@@ -1,7 +1,6 @@
 # Installs a Nginx server and edit the default
-package {'nginx_webserver':
-    ensure      => installed,
-    name        => 'nginx',
+package {'nginx':
+    ensure => installed,
     }
 
 file_line {'Add redirection permanently':
@@ -17,6 +16,6 @@ file {'index.html':
     }
 
 service {'nginx':
-    ensure    => running,
-    require   => Package['nginx'],
+    ensure => running,
+    name   => 'nginx',
     }
