@@ -2,7 +2,6 @@
 package {'nginx_webserver':
     ensure      => installed,
     name        => 'nginx',
-    description => 'a popular web server',
     }
 
 file_line {'Add redirection permanently':
@@ -13,12 +12,11 @@ file_line {'Add redirection permanently':
     }
 
 file {'index.html':
-    ensure  => present,
     path    => '/var/www/html/index.html',
     content => 'Hello World!',
     }
 
-service {'restart nginx':
-    ensure => running,
-    name   => 'nginx',
+service {'nginx':
+    ensure    => running,
+    require   => Package['nginx'],
     }
