@@ -13,12 +13,12 @@ file_line {'Add redirection permanently':
     }
 
 file {'index.html':
-    ensure  => persent,
+    ensure  => present,
     path    => '/var/www/html/index.html',
     content => 'Hello World!',
     }
 
 service {'restart nginx':
-    ensure => 'running',
+    ensure => running,
     name   => 'nginx',
     }
