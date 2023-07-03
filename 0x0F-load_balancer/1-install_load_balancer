@@ -13,8 +13,8 @@ frontend
 
 backend lb-webapp
     balance roundrobin
-    server 6366-web-01 54.85.96.179:80 check
-    server 6366-web-02 34.232.65.41:80 check
+    server 188140-web-01 54.85.96.179:80 check
+    server 188140-web-02 34.232.65.41:80 check
 "
 echo "$config_loadbal" >> /etc/haproxy/haproxy.cfg
 sudo service haproxy restart
