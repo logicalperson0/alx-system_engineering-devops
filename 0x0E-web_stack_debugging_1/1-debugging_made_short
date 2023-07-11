@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 # Script that sets the port 80 globally in the file!
-sudo sed -i "s/listen 8080 default_server;/listen 80 default_server;/" /etc/nginx/sites-enabled/default
-sudo sed -i "s/listen \[::\]:8080 default_server ipv6only=on;/listen \[::\]:80 default_server;/" /etc/nginx/sites-enabled/default
-#sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default
+sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default
 service nginx restart
-pkill -o nginx
+kill $(ps aux | grep '[n]ginx')
