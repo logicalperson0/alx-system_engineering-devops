@@ -40,7 +40,7 @@ frontend samuel-frontend
         default_backend samuel-backend
 
 frontend samuel-frontend2
-         bind *:443 ssl crt /etc/letsencrypt/archive/www.samueldevdesign.tech/allchain.pem
+         bind *:443 ssl crt /etc/haproxy/ssl/allchain.pem
          http-request set-header X-Forwarded-Proto https
          default_backend samuel-backend
 
