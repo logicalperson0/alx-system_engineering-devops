@@ -5,6 +5,10 @@ import requests
 import sys
 
 """
+Python script to export data in the JSON format
+"""
+
+"""
 if __name__ == "__main__":
     the_url = "https://jsonplaceholder.typicode.com/"
     tasks_com = []
