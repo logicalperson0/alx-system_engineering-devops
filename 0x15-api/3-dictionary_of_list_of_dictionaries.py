@@ -27,8 +27,8 @@ if __name__ == "__main__":
         be_jsonTodos = requesting_todos.json()
 
         for x in be_jsonTodos:
-            dict_t = {"task": x['title'], "completed": x['completed'],
-                      "username": name}
+            dict_t = {"username": name, "task": x['title'],
+                      "completed": x['completed']}
             tasks_com.append(dict_t)
         # print(tasks_com)
 
