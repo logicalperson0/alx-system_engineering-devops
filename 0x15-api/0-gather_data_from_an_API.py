@@ -28,4 +28,5 @@ if __name__ == "__main__":
     print("({}/{}):".format(len(tasks_com), len(be_jsonTodos)))
 
     for y in be_jsonTodos:
-        print("\t {}".format(y['title']))
+        if y['completed'] is True:
+            print("\t {}".format(y['title']))
