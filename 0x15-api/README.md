@@ -18,3 +18,7 @@ Tasks
 2. Export to JSON
 
 2-export_to_JSON.py: Python script that exports to-do list information of a given employee ID to JSON format.
+
+3. Dictionary of list of dictionaries
+
+3-dictionary_of_list_of_dictionaries.py: Python script that exports to-do list information for all employees to JSON format.
