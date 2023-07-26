@@ -12,6 +12,8 @@ if __name__ == "__main__":
     the_url = "https://jsonplaceholder.typicode.com/"
     tasks_com = []
     dicts_Id = {}
+    dicts_all = {}
+    tasks_all =[]
 
     user = '{}users/'.format(the_url)
     requesting = requests.get(user)
@@ -32,7 +34,11 @@ if __name__ == "__main__":
             tasks_com.append(dict_t)
         # print(tasks_com)
 
-        dicts_Id[str(user_Id)] = tasks_com
+        dicts_Id = {str(user_Id): tasks_com}
+
+        tasks_all.append(dicts_Id)
+
+        dicts_all[str(user_Id)] = tasks_all
 
         with open("todo_all_employees.json", "w") as outfile:
-            json.dump(dicts_Id, outfile)
+            json.dump(dicts_all, outfile)
