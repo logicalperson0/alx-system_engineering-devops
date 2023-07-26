@@ -1,12 +1,10 @@
 #!/usr/bin/python3
-import csv
+"""
+Python script to export data in the JSON format.
+"""
 import json
 import requests
 import sys
-
-"""
-Python script to export data in the JSON format
-"""
 
 """
 if __name__ == "__main__":
