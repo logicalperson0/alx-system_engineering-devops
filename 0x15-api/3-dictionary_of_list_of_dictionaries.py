@@ -1,13 +1,10 @@
 #!/usr/bin/python3
-"""
-Python script to export data in the CSV format.
-"""
 import csv
 import json
 import requests
 import sys
 
-
+"""
 if __name__ == "__main__":
     the_url = "https://jsonplaceholder.typicode.com/"
     tasks_com = []
@@ -15,7 +12,7 @@ if __name__ == "__main__":
     # dicts_all = {}
     # tasks_all = []
 
-    user = '{}users/'.format(the_url)
+    user = '{}users'.format(the_url)
     requesting = requests.get(user)
     be_json = requesting.json()
     # name = be_json['username']
@@ -34,7 +31,7 @@ if __name__ == "__main__":
             tasks_com.append(dict_t)
         # print(tasks_com)
 
-        dicts_Id = {str(user_Id): tasks_com}
+        dicts_Id[str(user_Id)] = tasks_com
 
         # tasks_all.append(dicts_Id)
 
@@ -42,3 +39,27 @@ if __name__ == "__main__":
 
         with open("todo_all_employees.json", "w") as outfile:
             json.dump(dicts_Id, outfile)
+"""
+if __name__ == "__main__":
+    url = 'https://jsonplaceholder.typicode.com/'
+    user = '{}users'.format(url)
+    res = requests.get(user)
+    json_o = res.json()
+    d_task = {}
+    for user in json_o:
+        name = user.get('username')
+        userid = user.get('id')
+        todos = '{}todos?userId={}'.format(url, userid)
+        res = requests.get(todos)
+        tasks = res.json()
+        l_task = []
+        for task in tasks:
+            dict_task = {"username": name,
+                         "task": task.get('title'),
+                         "completed": task.get('completed')}
+            l_task.append(dict_task)
+
+        d_task[str(userid)] = l_task
+    filename = 'todo_all_employees.json'
+    with open(filename, mode='w') as f:
+        json.dump(d_task, f)
