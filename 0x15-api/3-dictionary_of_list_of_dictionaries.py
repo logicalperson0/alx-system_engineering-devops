@@ -13,7 +13,7 @@ if __name__ == "__main__":
     tasks_com = []
     dicts_Id = {}
     dicts_all = {}
-    tasks_all =[]
+    tasks_all = []
 
     user = '{}users/'.format(the_url)
     requesting = requests.get(user)
@@ -31,7 +31,7 @@ if __name__ == "__main__":
         for x in be_jsonTodos:
             dict_t = {"username": name, "task": x['title'],
                       "completed": x['completed']}
-            tasks_com.append(dict_t)
+        tasks_com.append(dict_t)
         # print(tasks_com)
 
         dicts_Id = {str(user_Id): tasks_com}
