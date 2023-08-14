@@ -22,7 +22,7 @@ def top_ten(subreddit):
                         headers=headers, allow_redirects=False).json()
 
     if 'data' not in data:
-        return 0
+        return print(None)
 
     data_subs = data['data']['children']
 
