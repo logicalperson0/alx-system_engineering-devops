@@ -17,12 +17,12 @@ def top_ten(subreddit):
 
     limits = {'limit': 10}
 
-    datas = requests.get(urlReddit, params=limits).json()
+    data = requests.get(urlReddit, params=limits, allow_redirects=False).json()
 
-    if 'data' not in datas:
+    if 'data' not in data:
         return 0
 
-    data_subs = datas['data']['children']
+    data_subs = data['data']['children']
 
     if data_subs is None:
         print(None)

@@ -11,6 +11,8 @@ def number_of_subscribers(subreddit):
     if subreddit is None:
         return 0
 
+    # from https://www.reddit.com/dev/api/#GET_r_{subreddit}_about!!!
+
     urlReddit = "https://www.reddit.com/r/{}/about.json".format(subreddit)
 
     datas = requests.get(urlReddit).json()
