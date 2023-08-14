@@ -27,7 +27,7 @@ def top_ten(subreddit):
     data_subs = data['data']['children']
 
     if data_subs is None:
-        print(None)
+        return print(None)
 
     else:
         for pop in data_subs:
