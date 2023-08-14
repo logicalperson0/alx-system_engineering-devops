@@ -16,8 +16,10 @@ def top_ten(subreddit):
     urlReddit = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
 
     limits = {'limit': 10}
+    headers = {'User-Agent': 'Chrome/115.0.5790.171'}
 
-    data = requests.get(urlReddit, params=limits, allow_redirects=False).json()
+    data = requests.get(urlReddit, params=limits,
+                        headers=headers, allow_redirects=False).json()
 
     if 'data' not in data:
         return 0
