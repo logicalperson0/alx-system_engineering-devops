@@ -9,7 +9,7 @@ def top_ten(subreddit):
     """ function that queries the Reddit API and
     prints the titles of the first 10 hot posts listed for a given subreddit"""
     if subreddit is None:
-        return 0
+        return print(None)
 
     # from https://www.reddit.com/dev/api/#GET_r_{subreddit}_about!!!
 
