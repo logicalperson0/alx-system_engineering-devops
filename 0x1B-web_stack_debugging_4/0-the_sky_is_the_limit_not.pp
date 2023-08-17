@@ -2,11 +2,11 @@
 
 exec {'no_limit':
   provider => shell,
-  command  => 'sudo sed -i "s/ULIMIT=\"-n 15\"/ULIMIT=\"-n 4096\"/" /etc/default/nginx'
+  command  => 'sudo sed -i "s/ULIMIT=\"-n 15\"/ULIMIT=\"-n 2048\"/" /etc/default/nginx'
   before   => Exec['restart_nginx'],
 }
 
 exec {'restart_nginx':
   provider => shell,
-  command  => 'sudo systemctl restart nginx.service',
+  command  => 'sudo service nginx restart',
 }
